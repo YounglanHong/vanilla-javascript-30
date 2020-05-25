@@ -3,7 +3,8 @@
 
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-Tutorials from [https://JavaScript30.com](https://JavaScript30.com)
+1. Follow the tutorials from [https://JavaScript30.com](https://JavaScript30.com)
+2. Add markdown TIL about each tutorials
 
 ### Community #JavaScript30 Content
 

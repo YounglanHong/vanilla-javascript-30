@@ -5,7 +5,7 @@
 
 Tutorials from [https://JavaScript30.com](https://JavaScript30.com)
 
-## Community #JavaScript30 Content
+### Community #JavaScript30 Content
 
 Feel free to submit a PR adding a link to your own recaps, guides or reviews!
 
@@ -50,7 +50,7 @@ Feel free to submit a PR adding a link to your own recaps, guides or reviews!
 * [Mugilan](https://github.com/Mugilan-Codes) is currently doing this challenge. Check out his [Repo](https://github.com/Mugilan-Codes/javascript-30) and the [Live Demo](https://mugilan-codes.github.io/javascript-30/).
 
 
-## Alternative Implementations
+### Alternative Implementations
 Here are some links of people who have done the tutorials, but in a different language or framework:
 
 * [Thomas Mattacchione](https://github.com/tkjone/clojurescript-30) JavaScript 30 written in ClojureScript

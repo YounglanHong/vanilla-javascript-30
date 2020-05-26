@@ -1,11 +1,14 @@
-# JavaScript 30
+# #JavaScript 30
 ### 30 Day Vanilla JS coding challenge
 
 ![](https://javascript30.com/images/JS3-social-share.png)
 
-#### 1. Follow the tutorials from [https://JavaScript30.com](https://JavaScript30.com)
-#### 2. Add markdown TIL about each tutorials
+1. Follow the tutorials from [https://JavaScript30.com](https://JavaScript30.com)
+2. Add markdown TIL about each tutorials
 
+## Progress
+
+#### [Day-1: Javascript Drum Kit](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day1:Javascript_drum_kit)
 
 
 ***

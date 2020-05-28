@@ -14,6 +14,9 @@
 
 #### [Day-3: CSS Variables](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day3:CSS_Variables)
 
+#### [Day-4: Array Cardio Day1](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day4:Array%20Cardio%20Day1)
+
+
 ***
 ### Community #JavaScript30 Content
 

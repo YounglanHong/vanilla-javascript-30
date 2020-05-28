@@ -2,6 +2,8 @@
 
 ### 문제 설명
 
+spacing, blur, color 등을 CSS 변수로 정의하여 조절하는 문제
+
 ---
 
 - [CSS Variable](https://developer.mozilla.org/ko/docs/Web/CSS/Using_CSS_custom_properties): CSS 작성자가 정의하는 개체로, 문서 전반적으로 재사용할 임의의 값을 담습니다. 사용자 지정 속성 표기법`--main-color: black;`을 사용해 정의하고, **var()** 함수를 사용해 접근할 수 있습니다. `color: var(--main-color);`

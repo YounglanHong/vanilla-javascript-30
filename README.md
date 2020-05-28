@@ -12,6 +12,8 @@
 
 #### [Day-2: JS and CSS Clock](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day2:JS_and_CSS_Clock)
 
+#### [Day-3: CSS Variables](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day3:CSS_Variables)
+
 ***
 ### Community #JavaScript30 Content
 

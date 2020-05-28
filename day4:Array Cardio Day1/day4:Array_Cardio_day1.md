@@ -16,23 +16,23 @@ Array 메소드 정리
 
 4. Array.reduce: 배열의 각 요소에 대해 주어진 리듀서(reducer) 함수를 실행하고, 하나의 결과값을 반환
 
-- NodeList => Array?
+- [NodeList](https://developer.mozilla.org/ko/docs/Web/API/NodeList) => Array?
 
-  1. Array.from()
-  2. Spread Operator([...])
+1. Array.from()
+2. Spread Operator([...])
 
-  ```javascript
-  <!-- querySelectorAll: NodeList 반환 -->
-  const links = category.querySelectorAll("a");
+```javascript
+<!-- querySelectorAll: NodeList 반환 -->
+const links = category.querySelectorAll("a");
 
-  <!-- 1. Array.from  -->
-  const links = Array.from(category.querySelectorAll("a"));
+<!-- 1. Array.from  -->
+const links = Array.from(category.querySelectorAll("a"));
 
-  <!-- 2. Spread Operator  -->
-  const links = [...category.querySelectorAll("a")];
-  ```
+<!-- 2. Spread Operator  -->
+const links = [...category.querySelectorAll("a")];
+```
 
-  ![de](./de.png)
+![de](./de.png)
 
 - Destructuring(구조 분해 할당): 배열이나 객체의 속성을 해체하여 그 값을 개별 변수에 담을 수 있게 하는 JavaScript 표현식
 
@@ -57,3 +57,8 @@ Array 메소드 정리
       return obj;
     }, {});
     ```
+
+  ***
+
+  ※ Reference
+  [HTMLCollection과 NodeList](https://devsoyoung.github.io/posts/js-htmlcollection-nodelist)

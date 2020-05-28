@@ -10,6 +10,7 @@
 
 #### [Day-1: Javascript Drum Kit](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day1:Javascript_drum_kit)
 
+#### [Day-2: JS and CSS Clock](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day2:JS_and_CSS_Clock)
 
 ***
 ### Community #JavaScript30 Content

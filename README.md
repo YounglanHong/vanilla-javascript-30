@@ -16,6 +16,7 @@
 
 #### [Day-4: Array Cardio Day1](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day4:Array%20Cardio%20Day1)
 
+#### [Day-5: Flex Image Gallery](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day5:%20Flex_Image_Gallery)
 
 ***
 ### Community #JavaScript30 Content

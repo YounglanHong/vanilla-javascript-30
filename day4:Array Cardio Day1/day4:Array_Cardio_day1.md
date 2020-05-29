@@ -1,4 +1,4 @@
-# Day3: Array Cardio day1
+# Day4: Array Cardio day1
 
 ### 문제 설명
 

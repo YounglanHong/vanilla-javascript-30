@@ -38,6 +38,8 @@
     this.classList.toggle("open-active"); } }
     ```
 
+- [DOMTokenList](https://developer.mozilla.org/ko/docs/Web/API/DOMTokenList)
+
 ---
 
 ※ Reference

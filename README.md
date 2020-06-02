@@ -25,6 +25,9 @@
 
 #### [Day-8: Fun with HTML5 Canvas](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day8:Fun%20with%20HTML5%20Canvas)
 
+#### [Day-9: Must Know Dev Tools Tricks](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day9:14%20Must%20Know%20Dev%20Tools%20Tricks)
+
+
 ---
 
 ### Community #JavaScript30 Content

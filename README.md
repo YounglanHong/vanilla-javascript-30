@@ -29,6 +29,8 @@
 
 #### [Day-10: Hold_shift_to_Checkboxes](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day10:Hold_shift_to_Checkboxes)
 
+#### [Day-11: ⭐️Custom Video Player](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day11:Custom%20Video%20Player)
+
 ---
 
 ### Community #JavaScript30 Content

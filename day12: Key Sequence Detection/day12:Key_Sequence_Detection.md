@@ -1,4 +1,4 @@
-# Day11: Key Sequence Dectection(KONAMI CODE)
+# Day12: Key Sequence Dectection(KONAMI CODE)
 
 ### 문제 설명
 

@@ -2,6 +2,14 @@
 
 ### 문제 설명
 
+커스텀 비디오 플레이어
+
+- 재생, 일시정지 버튼 조작
+- volume 버튼 조작
+- progress bar 조작
+- skip 버튼 조작
+- (Bonus) full screen 기능 추가
+
 ---
 
 - [삼항 연산자(Ternary operator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)

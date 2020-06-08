@@ -27,6 +27,7 @@
 
 #### [Day-9: Must Know Dev Tools Tricks](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day9:14%20Must%20Know%20Dev%20Tools%20Tricks)
 
+#### [Day-10: Hold_shift_to_Checkboxes](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day10:Hold_shift_to_Checkboxes)
 
 ---
 

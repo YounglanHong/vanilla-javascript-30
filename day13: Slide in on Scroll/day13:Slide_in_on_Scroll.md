@@ -32,8 +32,18 @@
   }
   ```
 
+(cf) Throttle & Debounce
+
+- 반복적으로 실행을 요청했을 때 빈도를 조절하는 역할(성능, 비용문제)
+
+  - `Throttle`: 마지막 함수가 호출된 후 일정 시간이 지나기 전에 다시 호출되지 않도록 하는 것(몇 초에 한 번, 또는 몇 밀리초에 한 번씩만 실행되게 제한을 두는 것)
+
+  - `Debounce`: 연이어 호출되는 함수들 중 마지막 함수(또는 제일 처음)만 호출하도록 하는 것
+
 ※ Reference
 
 [Throttle 와 Debounce 개념 정리하기](https://medium.com/@pks2974/throttle-%EC%99%80-debounce-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-2335a9c426ff)
 
 [Debounce란 뭘까요?](https://medium.com/@feanar/debounce%EB%9E%80-%EB%AD%98%EA%B9%8C%EC%9A%94-82204c8b953f)
+
+[throttle과 debounce](https://www.zerocho.com/category/JavaScript/post/59a8e9cb15ac0000182794fa)

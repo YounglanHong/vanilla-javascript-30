@@ -31,7 +31,9 @@
 
 #### [Day-11: ⭐️Custom Video Player](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day11:Custom%20Video%20Player)
 
-#### [Day-12: ⭐️Key Sequence Detection](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day12:%20Key%20Sequence%20Detection)
+#### [Day-12: Key Sequence Detection](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day12:%20Key%20Sequence%20Detection)
+
+#### [Day-13: Slide in on Scroll](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day13:%20Slide%20in%20on%20Scroll)
 
 ---
 

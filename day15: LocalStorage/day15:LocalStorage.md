@@ -101,7 +101,8 @@
 
 * 다른 프레임워크에서의 이벤트 위임
 
-  > Backbone.js, Ember.js, React 같은 경우에는 내부적으로 이벤트 위임을 하기 때문에 자체적으로 제공하는 이벤트 등록 방식을 사용하면 된다. Angular.js의 경우는 별도의 모듈을 추가해 이벤트 위임을 할 수 있다.(ref: https://ui.toast.com/weekly-pick/ko_20160826/)
+  > Backbone.js, Ember.js, React 같은 경우에는 내부적으로 이벤트 위임을 하기 때문에 자체적으로 제공하는 이벤트 등록 방식을 사용하면 된다. (ex) React의 props
+  > Angular.js의 경우는 별도의 모듈을 추가해 이벤트 위임을 할 수 있다.(ref: https://ui.toast.com/weekly-pick/ko_20160826/)
 
   1. where we listen for a click on something higher,
   2. and then inside of it we check if it's the actual thing that we want because it could trigger on a few different things

@@ -1,4 +1,4 @@
-# Day15: Local Storage
+# Day15: Local Storage & Event Delegation
 
 ### 문제 설명
 
@@ -19,6 +19,11 @@
   ```
 
 - [HTMLFormElement.reset()](https://developer.mozilla.org/ko/docs/Web/API/HTMLFormElement/reset): 폼 리셋
+
+- [Element.matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches): 요소가 해당 selector인지 여부 체크
+  ```javascript
+    if (!e.target.matches("input")) return; //* skip unless it is input
+  ```
 
 ⭐️ React, Angular와 같은 프레임워크 필요한 이유
 
@@ -84,21 +89,21 @@
 
     ![LocalStorage](./localStorage.png)
 
-- e.target.matches
+
 
 - Event Delegation
 
-1. where we listen for a click on something higher,
-2. and then inside of it we check if it's the actual thing that we want because it could trigger on a few different things
+  1. where we listen for a click on something higher,
+  2. and then inside of it we check if it's the actual thing that we want because it could trigger on a few different things
 
-```javascript
-itemsList.addEventListener("click", toggleDone);
+  ```javascript
+  itemsList.addEventListener("click", toggleDone);
 
-function toggleDone(e) {
-  if (e.target.matches("input")) return; //* skip unless it is input
-  console.log(e.target);
-}
-```
+  function toggleDone(e) {
+    if (e.target.matches("input")) return; //* skip unless it is input
+    console.log(e.target);
+  }
+  ```
 
 ---
 

@@ -1,4 +1,4 @@
-# Day15: Local Storage
+# Day15: Local Storage & Event Delegation
 
 ### 문제 설명
 
@@ -19,6 +19,11 @@
   ```
 
 - [HTMLFormElement.reset()](https://developer.mozilla.org/ko/docs/Web/API/HTMLFormElement/reset): 폼 리셋
+
+- [Element.matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches): 요소가 해당 selector인지 여부 체크
+  ```javascript
+  if (!e.target.matches("input")) return; //* skip unless it is input
+  ```
 
 ⭐️ React, Angular와 같은 프레임워크 필요한 이유
 
@@ -84,9 +89,7 @@
 
     ![LocalStorage](./localStorage.png)
 
-- e.target.matches
-
-- Event Delegation
+* Event Delegation
 
   > 사용자의 액션에 의해 이벤트 발생 시 이벤트는 document 레벨까지 버블링 되어 올라간다. 이 때문에 자식 엘리먼트에서 발생하는 이벤트를 부모 엘리먼트에서도 감지할 수 있다. 이러한 동작을 이용해 사용할 수 있는 방법이 **이벤트 위임** 이다. 특정 엘리먼트에 각각 이벤트를 등록하지 않고 하나의 부모에 등록하여 부모에게 이벤트를 위임하는 방법이 바로 그것이다. (ref: https://ui.toast.com/weekly-pick/ko_20160826/)
 
@@ -96,7 +99,7 @@
   2. 상위 엘리먼트에서만 이벤트 리스너를 관리하기 때문에 하위 엘리먼트는 자유롭게 추가 삭제할 수 가능
   3. 메모리 사용량, 메모리 누수 가능성 감소
 
-- 다른 프레임워크에서의 이벤트 위임
+* 다른 프레임워크에서의 이벤트 위임
 
   > Backbone.js, Ember.js, React 같은 경우에는 내부적으로 이벤트 위임을 하기 때문에 자체적으로 제공하는 이벤트 등록 방식을 사용하면 된다. Angular.js의 경우는 별도의 모듈을 추가해 이벤트 위임을 할 수 있다.(ref: https://ui.toast.com/weekly-pick/ko_20160826/)
 

@@ -37,7 +37,7 @@
 
 #### [Day-14: Object& Array: Reference vs. Copy](https://github.com/YounglanHong/Vanilla-JavaScript/blob/master/day14:%20Object&Arrays-Reference_vs_Copy/day14:day14:Object&Arrays-Reference_vs_Copy.md)
 
-#### [Day-15: LocalStorage & Event Delegation](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day15:%20LocalStorage)
+#### [Day-15: ⭐️⭐️⭐️LocalStorage & Event Delegation](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day15:%20LocalStorage)
 
 ---
 

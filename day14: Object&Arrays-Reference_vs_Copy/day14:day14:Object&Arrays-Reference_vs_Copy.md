@@ -2,11 +2,10 @@
 
 ### 문제 설명
 
-배열과 객체의 참조 vs. 복사
+javascript에서 배열과 객체의 참조 vs. 복사
 
 ---
 
-- Javascript에서
 
 ### 1. **pass by value**: `Boolean`, `null`, `undefined`, `String`, `Number`(primitive types)
 
@@ -94,7 +93,7 @@ console.log(players, team);
    console.log("cap_spread", cap3);
    ```
 
-\*\*\* shallow(1 level deep) vs. deep(clone deep; lodash)
+### shallow(1 level deep) vs. deep(clone deep; lodash)
 
 - shallow(1 level deep): Object.assign
 
@@ -147,7 +146,7 @@ console.log(players, team);
     OR **JSON.parse & JSON. stringify** 이용
     (※ 추천하는 방법은 아님)
 
-    ⭐️ JSON.stringify()를 통해 객체를 문자열로 변환하고 바로 JSON.parse를 통해 객체로 변환하면 객체의 모든 단계가 전부 복사(copy)
+    ⭐️ JSON.stringify()를 통해 객체를 문자열로 변환하고, JSON.parse를 통해 객체로 변환하면 객체의 모든 단계 전부 복사(copy)
 
     ```javascript
     const dev2 = JSON.parse(JSON.stringify(wes));
@@ -160,11 +159,9 @@ console.log(players, team);
     // "@wesbos"
     ```
 
-```
-
----
+*** 
 
 ※ Reference
 
 https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0
-```
+

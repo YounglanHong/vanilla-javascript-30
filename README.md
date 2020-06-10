@@ -35,6 +35,8 @@
 
 #### [Day-13: Slide in on Scroll](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day13:%20Slide%20in%20on%20Scroll)
 
+#### [Day-14: Object& Array: Reference vs. Copy](https://github.com/YounglanHong/Vanilla-JavaScript/blob/master/day14:%20Object&Arrays-Reference_vs_Copy/day14:day14:Object&Arrays-Reference_vs_Copy.md)
+
 ---
 
 ### Community #JavaScript30 Content

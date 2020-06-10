@@ -63,6 +63,7 @@
       const clear = document.querySelector("[name=clear]");
       // console.log(clear);
 
+      // 아이템 추가 함수
       function addItem(e) {
         e.preventDefault();
         // console.log(this);
@@ -76,7 +77,7 @@
         localStorage.setItem("items", JSON.stringify(items));
         this.reset();
       }
-      //* for 재사용성
+      //* 아이템 추가시 "재사용성"을 위해 추가 HTML을 생성하는 함수 생성
       function populateList(plates = [], platesList) {
         platesList.innerHTML = plates
           .map((plate, i) => {
@@ -119,14 +120,12 @@
       //    they don't have event listeners attached to them.
 
       /* "Event Delegation"
-        rather than listening for a click or a change on these checkboxes directly
-        what we do is we look for somebody who is going to be on the page at
-        the time of listening
-        If we look at our HTML here, you're going to see that unordered list that holds everything, UL
-        with a class of "plates," that does exist. So what we're going to do
-        is we're going to listen for a click on the plates, and then we're going to figure
-        out, "Did they actually mean to click one of the inputs inside of it?" 
-        <<reponsible parents - negligent child>> */
+        Rather than listening for a click or a change on these checkboxes directly,
+        what we do is we look for somebody who is going to be on the page at the time of listening
+        If we look at our HTML here, you're going to see that unordered list that holds everything, 
+        UL with a class of "plates," that does exist. So what we're going to do is we're going to 
+        listen for a click on the plates, and then we're going to figure out, "Did they actually mean
+        to click one of the inputs inside of it?" / just like <<reponsible parents - negligent child>> */
 
       //   const checkboxes = document.querySelectorAll("input");
 

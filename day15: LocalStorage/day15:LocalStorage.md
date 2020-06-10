@@ -88,17 +88,38 @@
 
 - Event Delegation
 
-1. where we listen for a click on something higher,
-2. and then inside of it we check if it's the actual thing that we want because it could trigger on a few different things
+  > 사용자의 액션에 의해 이벤트 발생 시 이벤트는 document 레벨까지 버블링 되어 올라간다. 이 때문에 자식 엘리먼트에서 발생하는 이벤트를 부모 엘리먼트에서도 감지할 수 있다. 이러한 동작을 이용해 사용할 수 있는 방법이 **이벤트 위임** 이다. 특정 엘리먼트에 각각 이벤트를 등록하지 않고 하나의 부모에 등록하여 부모에게 이벤트를 위임하는 방법이 바로 그것이다. (ref: https://ui.toast.com/weekly-pick/ko_20160826/)
 
-```javascript
-itemsList.addEventListener("click", toggleDone);
+  - 장점
 
-function toggleDone(e) {
-  if (e.target.matches("input")) return; //* skip unless it is input
-  console.log(e.target);
-}
-```
+  1. 동적인 엘리먼트에 대한 이벤트 처리, 이벤트 핸들러 관리 용이(동일한 이벤트에 대해 한 곳에서 관리하기 때문에 각각의 엘리먼트를 여러 곳에 등록하여 관리하는 것보다 관리가 용이)
+  2. 상위 엘리먼트에서만 이벤트 리스너를 관리하기 때문에 하위 엘리먼트는 자유롭게 추가 삭제할 수 가능
+  3. 메모리 사용량, 메모리 누수 가능성 감소
+
+- 다른 프레임워크에서의 이벤트 위임
+
+  > Backbone.js, Ember.js, React 같은 경우에는 내부적으로 이벤트 위임을 하기 때문에 자체적으로 제공하는 이벤트 등록 방식을 사용하면 된다. Angular.js의 경우는 별도의 모듈을 추가해 이벤트 위임을 할 수 있다.(ref: https://ui.toast.com/weekly-pick/ko_20160826/)
+
+  1. where we listen for a click on something higher,
+  2. and then inside of it we check if it's the actual thing that we want because it could trigger on a few different things
+
+  ```javascript
+  const itemsList = document.querySelector(".plates");
+  const items = JSON.parse(localStorage.getItem("items")) || [];
+
+  function toggleDone(e) {
+    if (!e.target.matches("input")) return;
+    //* skip unless it is input
+    // If we click different items, the target is going to be different(items, checkbox, <li> ...etc)
+    const el = e.target;
+    const index = el.dataset.index;
+    items[index].done = !items[index].done;
+    localStorage.setItem("items", JSON.stringify(items));
+    populateList(items, itemsList);
+  }
+
+  itemsList.addEventListener("click", toggleDone);
+  ```
 
 ---
 

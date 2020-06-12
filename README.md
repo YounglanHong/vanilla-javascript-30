@@ -39,6 +39,8 @@
 
 #### [Day-15: ⭐️⭐️⭐️LocalStorage & Event Delegation](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day15:%20LocalStorage)
 
+#### [Day-15: Mouse Move Shadow](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day16:Mouse%20Move%20Shadow)
+
 ---
 
 ### Community #JavaScript30 Content

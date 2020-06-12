@@ -26,8 +26,6 @@ let { offsetX: x, offsetY: y } = e;
     - offsetX : 이벤트 대상 객체에서의 상대적 마우스 x좌표 위치를 반환
     - offsetY : 이벤트 대상 객체에서의 상대적 마우스 y좌표 위치를 반환
 
-3. pageX, pageY
-
 - [contenteditable](https://developer.mozilla.org/ko/docs/Web/Guide/HTML/Content_Editable)
 
   - HTML5 에서는 어떤 엘러먼트도 수정(edit)이 가능

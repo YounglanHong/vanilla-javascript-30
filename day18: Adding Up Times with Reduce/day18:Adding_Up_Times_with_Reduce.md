@@ -47,9 +47,11 @@ const seconds = timeNodes.map((node) => node.dataset.time);
 
     => node.dataset.time 으로 접근
 
-* [parseFloat](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseFloat): 문자열을 분석해 부동소수점 실수로 반환
+---
 
-* [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+- [parseFloat](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseFloat): 문자열을 분석해 부동소수점 실수로 반환
+
+- [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
   - map: 인자로 배열을 받고, 결과값으로 **배열** 을 반환
-  - reduce: 인자로 배열을 받고, 결과값으로 **숫자**, **문자열** , **객체** 등 누적 계산의 결과값을 반환
+  - reduce: 인자로 배열을 받고, 결과값으로 **숫자**, **문자열** , **객체** 등 **_누적 계산의 결과값_** 을 반환

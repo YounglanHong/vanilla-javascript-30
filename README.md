@@ -43,6 +43,8 @@
 
 #### [Day-17: 💚Sort without Articles](https://github.com/YounglanHong/Vanilla-JavaScript/blob/master/day17:%20Sort%20without%20Articles/day17:Sort_without_Articles.html)
 
+#### [Day-18: 💚Adding up Times with Reduce](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day18:%20Adding%20Up%20Times%20with%20Reduce)
+
 ---
 
 ### Community #JavaScript30 Content

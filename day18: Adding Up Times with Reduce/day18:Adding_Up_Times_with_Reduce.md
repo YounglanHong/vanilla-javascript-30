@@ -51,6 +51,14 @@ const seconds = timeNodes.map((node) => node.dataset.time);
 
 - [parseFloat](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseFloat): 문자열을 분석해 부동소수점 실수로 반환
 
+  ```javascript
+  const [mins, secs] = timeCode.split(":").map(parseFloat);
+  /* const [mins, secs] = timeCode.split(":").map(function(str) {
+     return parseFloat(str)
+    }); 
+  */
+  ```
+
 - [reduce](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
   - map: 인자로 배열을 받고, 결과값으로 **배열** 을 반환

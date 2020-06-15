@@ -45,6 +45,8 @@
 
 #### [Day-18: 💚Adding up Times with Reduce](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day18:%20Adding%20Up%20Times%20with%20Reduce)
 
+#### [Day-20: Speech Recognition](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day20:%20Native%20Speech%20Recognition)
+
 ---
 
 ### Community #JavaScript30 Content

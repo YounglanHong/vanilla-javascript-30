@@ -1,0 +1,18 @@
+{
+  "name": "gum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server --files \"*.css, *.html, *.js\" --https"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "yargs-parser": "^18.1.3"
+  }
+}

@@ -47,6 +47,8 @@
 
 #### [Day-20: Speech Recognition](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day20:%20Native%20Speech%20Recognition)
 
+#### [Day-27: Click and Drag](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day27:%20Click%20and%20Drag)
+
 ---
 
 ### Community #JavaScript30 Content

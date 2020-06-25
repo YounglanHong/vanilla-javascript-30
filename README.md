@@ -49,6 +49,8 @@
 
 #### [Day-27: Click and Drag](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day27:%20Click%20and%20Drag)
 
+#### [Day-28: 📹Video Speed Controller](https://github.com/YounglanHong/Vanilla-JavaScript/tree/master/day28:Video%20Speed%20Controller)
+
 ---
 
 ### Community #JavaScript30 Content
